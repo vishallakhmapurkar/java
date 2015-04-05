@@ -1,0 +1,147 @@
+2013-01-18 18:48:27,574 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-18 18:48:43,684 [main] (BootStrapDataProvisioningServiceImpl.java:136)-  INFO: Starting generation of bootstrap file at time :1358515123141
+2013-01-18 18:49:56,056 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-18 18:50:00,613 [main] (BootStrapDataProvisioningServiceImpl.java:136)-  INFO: Starting generation of bootstrap file at time :1358515200439
+2013-01-18 18:54:35,535 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-18 18:54:43,293 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358515482908
+2013-01-18 18:57:15,092 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-18 18:57:21,840 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358515641680
+2013-01-18 18:57:46,046 [main] (AuditManagementDaoImpl.java:67)-  INFO: Record inserted : 43950
+2013-01-18 19:00:32,995 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-18 19:00:37,270 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358515837055
+2013-01-18 19:01:51,031 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-18 19:01:56,641 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358515916432
+2013-01-18 19:02:14,062 [main] (AuditManagementDaoImpl.java:67)-  INFO: Record inserted : 43952
+2013-01-18 19:03:27,687 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-18 19:03:28,314 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358516008314
+2013-01-18 19:03:32,751 [main] (AuditManagementDaoImpl.java:67)-  INFO: Record inserted : 43953
+2013-01-18 19:04:19,796 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-18 19:04:20,402 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358516060402
+2013-01-18 19:04:24,826 [main] (AuditManagementDaoImpl.java:67)-  INFO: Record inserted : 43954
+2013-01-18 19:04:52,648 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-18 19:04:53,270 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358516093270
+2013-01-18 19:04:57,723 [main] (AuditManagementDaoImpl.java:67)-  INFO: Record inserted : 43955
+2013-01-18 19:07:40,270 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-18 19:07:40,896 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358516260896
+2013-01-18 19:07:45,475 [main] (AuditManagementDaoImpl.java:67)-  INFO: Record inserted : 43956
+2013-01-18 19:08:54,429 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-18 19:08:55,140 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358516335140
+2013-01-18 19:08:59,573 [main] (AuditManagementDaoImpl.java:67)-  INFO: Record inserted : 43957
+2013-01-18 19:14:18,513 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-18 19:14:19,128 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358516659128
+2013-01-18 19:14:23,733 [main] (AuditManagementDaoImpl.java:67)-  INFO: Record inserted : 43958
+2013-01-18 19:15:12,029 [main] (BootStrapNetNumberOverrideDataProv.java:46)-  INFO: NetNumber override data provisioning process Finished Successfully.
+2013-01-21 10:50:58,297 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43961
+2013-01-21 10:51:24,374 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43962
+2013-01-21 10:51:33,477 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43963
+2013-01-21 11:13:50,911 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43964
+2013-01-21 11:13:59,235 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43965
+2013-01-21 11:15:40,458 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43966
+2013-01-21 15:09:10,930 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-21 15:09:23,018 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358761163018
+2013-01-21 15:10:18,546 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43967
+2013-01-21 15:12:10,916 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-21 15:12:14,624 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358761334624
+2013-01-21 15:13:03,873 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-21 15:17:41,434 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358761661434
+2013-01-21 15:17:54,206 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43969
+2013-01-21 15:19:07,951 [main] (BootStrapNetNumberOverrideDataProv.java:46)-  INFO: NetNumber override data provisioning process Finished Successfully.
+2013-01-22 15:15:10,799 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 15:15:18,030 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358847918030
+2013-01-22 15:15:19,523 [main] (AppConfigValidator.java:42)- FATAL: Process Exiting beacuse,SFTP portmust be numeric
+2013-01-22 15:15:29,830 [main] (BootStrapDataProvisioningServiceImpl.java:216)- FATAL: Exiting process time 1358847929829
+2013-01-22 15:17:40,921 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 15:17:56,472 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 15:18:04,007 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358848084007
+2013-01-22 15:18:17,377 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43970
+2013-01-22 15:23:24,847 [main] (BootStrapDataProvisioningServiceImpl.java:212)- ERROR: Error occur during file uploading
+biz.neustar.netnumber.exceptions.NetNumberOverrideDataProvisioningException: Error occur during file uploading
+	at biz.neustar.netnumber.sftp.SFTPConnector.uploadFiles(SFTPConnector.java:198)
+	at biz.neustar.netnumber.service.impl.BootStrapDataProvisioningServiceImpl.generateFiles(BootStrapDataProvisioningServiceImpl.java:184)
+	at biz.neustar.netnumber.main.BootStrapNetNumberOverrideDataProv.main(BootStrapNetNumberOverrideDataProv.java:45)
+Caused by: com.jcraft.jsch.JSchException: session is down
+	at com.jcraft.jsch.Session.openChannel(Session.java:798)
+	at biz.neustar.netnumber.sftp.SFTPConnector.getChannelSftp(SFTPConnector.java:150)
+	at biz.neustar.netnumber.sftp.SFTPConnector.uploadFiles(SFTPConnector.java:176)
+	... 2 more
+2013-01-22 15:23:32,208 [main] (BootStrapNetNumberOverrideDataProv.java:46)-  INFO: NetNumber override data provisioning process Finished Successfully.
+2013-01-22 15:25:21,930 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 15:25:27,715 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358848527715
+2013-01-22 15:25:38,892 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43971
+2013-01-22 15:57:45,376 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 15:58:04,520 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358850484520
+2013-01-22 15:58:05,914 [main] (AppConfigValidator.java:30)- FATAL: Process Exiting beacuse,Invalid SFTP host name
+2013-01-22 15:59:41,940 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 15:59:46,108 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358850586108
+2013-01-22 15:59:57,742 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43972
+2013-01-22 16:03:11,335 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 16:03:11,973 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358850791973
+2013-01-22 16:03:16,447 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43973
+2013-01-22 16:05:06,675 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 16:05:07,317 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358850907317
+2013-01-22 16:05:26,813 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 16:05:27,448 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358850927448
+2013-01-22 16:05:35,464 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43975
+2013-01-22 16:07:11,163 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 16:07:11,828 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358851031828
+2013-01-22 16:07:23,855 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43976
+2013-01-22 16:08:32,509 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 16:08:33,153 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358851113153
+2013-01-22 16:08:37,602 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43977
+2013-01-22 16:09:55,201 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 16:09:55,847 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358851195847
+2013-01-22 16:10:00,324 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43978
+2013-01-22 16:15:04,174 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 16:15:04,833 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358851504833
+2013-01-22 16:15:27,834 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43979
+2013-01-22 16:17:03,287 [main] (BootStrapNetNumberOverrideDataProv.java:46)-  INFO: NetNumber override data provisioning process Finished Successfully.
+2013-01-22 16:25:18,595 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 16:26:11,069 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358852170763
+2013-01-22 16:49:10,791 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 16:49:11,370 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358853551370
+2013-01-22 16:49:14,678 [main] (BootStrapDataProvisioningServiceImpl.java:206)- FATAL: Exiting process because no carrier ids and sms uris for customer XYZ
+2013-01-22 16:49:46,838 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 16:49:47,405 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358853587405
+2013-01-22 16:49:50,680 [main] (BootStrapDataProvisioningServiceImpl.java:206)- FATAL: Exiting process because no carrier ids and sms uris for customer XYZ
+2013-01-22 16:50:15,060 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-22 16:50:15,662 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358853615662
+2013-01-22 16:50:20,058 [main] (AuditManagementDaoImpl.java:67)-  INFO: Inserted record id: 43980
+2013-01-22 16:50:25,585 [main] (BootStrapNetNumberOverrideDataProv.java:46)-  INFO: NetNumber override data provisioning process Finished Successfully.
+2013-01-23 13:00:34,935 [main] (BootStrapNetNumberOverrideDataProv.java:40)-  INFO: Starting Boot Strap NetNumber override data provisioning process
+2013-01-23 13:00:43,436 [main] (BootStrapDataProvisioningServiceImpl.java:138)-  INFO: Starting generation of bootstrap file at time :1358926243027
+2013-01-23 13:00:55,559 [main] (BootStrapDataProvisioningServiceImpl.java:211)- ERROR: Failure occur during the insert operation in nn_audit table
+biz.neustar.netnumber.exceptions.NetNumberOverrideDataProvisioningException: Failure occur during the insert operation in nn_audit table
+	at biz.neustar.netnumber.service.impl.AuditManagementServiceImpl.insertNNProcessAudit(AuditManagementServiceImpl.java:30)
+	at biz.neustar.netnumber.service.impl.AuditManagementServiceImpl.insertNNProcessAudit(AuditManagementServiceImpl.java:1)
+	at biz.neustar.netnumber.service.impl.BootStrapDataProvisioningServiceImpl.generateFiles(BootStrapDataProvisioningServiceImpl.java:154)
+	at biz.neustar.netnumber.main.BootStrapNetNumberOverrideDataProv.main(BootStrapNetNumberOverrideDataProv.java:45)
+Caused by: biz.neustar.netnumber.exceptions.NetNumberOverrideDataProvisioningException: Failure occur during the insert operation in nn_audit table
+	at biz.neustar.netnumber.dao.impl.AuditManagementDaoImpl.insertNNProcessAudit(AuditManagementDaoImpl.java:63)
+	at biz.neustar.netnumber.dao.impl.AuditManagementDaoImpl.insertNNProcessAudit(AuditManagementDaoImpl.java:1)
+	at biz.neustar.netnumber.service.impl.AuditManagementServiceImpl.insertNNProcessAudit(AuditManagementServiceImpl.java:27)
+	... 3 more
+Caused by: org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL []; ORA-00001: unique constraint (SIPIX_LSMS.NN_PROCESS_AUDIT_PK) violated
+; nested exception is java.sql.SQLException: ORA-00001: unique constraint (SIPIX_LSMS.NN_PROCESS_AUDIT_PK) violated
+
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:241)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:603)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:843)
+	at biz.neustar.netnumber.dao.impl.AuditManagementDaoImpl.insertNNProcessAudit(AuditManagementDaoImpl.java:44)
+	... 5 more
+Caused by: java.sql.SQLException: ORA-00001: unique constraint (SIPIX_LSMS.NN_PROCESS_AUDIT_PK) violated
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:331)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:288)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:743)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:216)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:955)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1168)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3285)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3368)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeUpdate(NewProxyPreparedStatement.java:105)
+	at org.springframework.jdbc.core.JdbcTemplate$3.doInPreparedStatement(JdbcTemplate.java:845)
+	at org.springframework.jdbc.core.JdbcTemplate$3.doInPreparedStatement(JdbcTemplate.java:843)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:587)
+	... 7 more

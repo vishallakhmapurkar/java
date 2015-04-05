@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd">
+
+	<context:property-placeholder location="classpath:db.properties,app.properties" />
+
+	<bean id="appConf" class="biz.neustar.netnumber.config.AppConfig"
+		p:archiveBootstrapOutputPath="${ARCHIVE.BOOTSTRAP.OUTPUT.DIRECTORY}"
+		p:archiveBootstrapTmpPath="${ARCHIVE.BOOTSTRAP.TEMP.DIRECTORY}"
+		p:customerName="${CUSTOMER_NAME}" p:bootstarpFileSeperator="${COLUMN_SEPERATOR_BOOTSTRAP:,}"
+		p:fileNameSeperator="${FILE_NAME_SEPERATOR:-}"
+		p:incrementalFileSeperator="${COLUMN_SEPERATOR_INCREMENTA:,}"
+		p:fileNameExtension="${FILE_EXTENSION:.xrf}"
+		p:sftpConnector-ref="sftpConnecter"></bean>
+
+	<import resource="database.xml" />
+
+	<import resource="service.xml" />
+ <aop:aspectj-autoproxy proxy-target-class="true"/>
+ 
+    <bean class="com.example.project.execution.ConcurrentOperationFailureInterceptor" id="failureInterceptor">
+        <property name="maxRetries" value="3"/>
+    </bean>
+
+	<bean id="sftpConnecter" class="biz.neustar.netnumber.sftp.SFTPConnector"
+		p:bootStrapRemoteDir="${SFTP.BOOTSTRAP.REMOTEDIR}" p:hostName="${SFTP.HOST}"
+		p:userName="${SFTP.USERNAME}" p:password="${SFTP.PASSWORD}" p:port="${SFTP.PORT}"
+		p:incrementalRemoteDir="${SFTP.INCREMENTAL.REMOTEDIR}"
+		p:remotePathSeparator="${SFTP.REMOTEPATHSEPARATOR}" p:retryCount="${SFTP.RETRYCOUNT}"
+		p:sleepTime="${SFTP.SLEEPTIME}"></bean>
+
+</beans>

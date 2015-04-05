@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.2.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-3.2.xsd">
+		
+		
+		
+		
+	<bean id="carrierSMSURIMappingsService"
+		class="biz.neustar.netnumber.service.impl.CarrierSmsUriMappingServiceImpl"
+		p:carrierSmsUriMappingDao-ref="carrierSMSURIMappingsDAO"></bean>
+
+	<bean id="lsmsDownloadLogService"
+		class="biz.neustar.netnumber.service.impl.LSMSDownloadLogServiceImpl"
+		p:lsmsDownloadLogDao-ref="lsmsDownloadLogDao"></bean>
+
+	<bean id="subscriptionVersionService"
+		class="biz.neustar.netnumber.service.impl.SubscriptionVersionServiceImpl"
+		p:subscriptionVersionDao-ref="subscriptionVersionDao"></bean>
+
+	<bean id="auditManagementService"
+		class="biz.neustar.netnumber.service.impl.AuditManagementServiceImpl"
+		p:auditManagementDao-ref="auditManagementDao"></bean>
+
+	<bean id="netNumberLastTxnService"
+		class="biz.neustar.netnumber.service.impl.NetNumberLastTxnServiceImpl"
+		p:netNumberLastTxnDao-ref="netNumberLastTxnDao"></bean>
+
+	<bean id="bootstrapService"
+		class="biz.neustar.netnumber.service.impl.BootStrapDataProvisioningServiceImpl"
+		p:carrierSmsUriMappingService-ref="carrierSMSURIMappingsService"
+		p:appConf-ref="appConf" p:auditManagementService-ref="auditManagementService"
+		p:lsmsDownloadLogService-ref="lsmsDownloadLogService"
+		p:subscriptionVersionService-ref="subscriptionVersionService"></bean>
+
+	<bean id="incrementalService"
+		class="biz.neustar.netnumber.service.impl.IncrementalDataProvisioningServiceImpl"
+		p:carrierSmsUriMappingService-ref="carrierSMSURIMappingsService"
+		p:appConf-ref="appConf"
+		p:auditManagementService-ref="auditManagementService"
+		p:lsmsDownloadLogService-ref="lsmsDownloadLogService"
+		p:subscriptionVersionService-ref="subscriptionVersionService"
+		p:numberLastTxnService-ref="netNumberLastTxnService"></bean>
+
+
+
+</beans>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd">
+
+
+
+
+	<bean id="dataSource" scope="singleton"
+		class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+		<property name="driverClass" value="${driverClassName}" />
+		<property name="jdbcUrl" value="${db.connection.url}" />
+		<property name="user" value="${db.connection.username}" />
+		<property name="password" value="${db.connection.password}" />
+		<property name="initialPoolSize" value="${db.initial.poolsize}" />
+		<property name="minPoolSize" value="${min.pool.size}" />
+		<property name="maxPoolSize" value="${max.pool.size}" />
+		<property name="checkoutTimeout" value="${check.out.timeout}" />
+		<property name="maxStatements" value="${max.statements}" />
+		<property name="testConnectionOnCheckin" value="${test.connection.checkin}" />
+		<property name="idleConnectionTestPeriod" value="${idle.connection.test.period}" />
+		<property name="usesTraditionalReflectiveProxies" value="${uses.traditional.reflective.proxies}" />
+		<property name="numHelperThreads" value="${num.helper.threads}" />
+		<property name="maxIdleTime" value="${max.idle.time}" />
+		<property name="acquireRetryAttempts" value="${acquireRetryAttempts}" />
+
+	</bean>
+	<bean id="txManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager"
+		p:dataSource-ref="dataSource" />
+
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"
+		p:dataSource-ref="dataSource">
+	</bean>
+
+	<bean id="carrierSMSURIMappingsDAO"
+		class="biz.neustar.netnumber.dao.impl.CarrierSmsUriMappingDaoImpl"
+		p:jdbcTemplate-ref="jdbcTemplate"></bean>
+	<bean id="lsmsDownloadLogDao" class="biz.neustar.netnumber.dao.impl.LsmsDownloadLogDaoImpl"
+		p:jdbcTemplate-ref="jdbcTemplate"></bean>
+	<bean id="subscriptionVersionDao"
+		class="biz.neustar.netnumber.dao.impl.SubscriptionVersionDaoImpl"
+		p:jdbcTemplate-ref="jdbcTemplate"></bean>
+	<bean id="auditManagementDao" class="biz.neustar.netnumber.dao.impl.AuditManagementDaoImpl"
+		p:jdbcTemplate-ref="jdbcTemplate"></bean>
+
+	<bean id="netNumberLastTxnDao" class="biz.neustar.netnumber.dao.impl.NetNumberLastTxnDaoImpl"
+		p:jdbcTemplate-ref="jdbcTemplate"></bean>
+
+
+
+</beans>
