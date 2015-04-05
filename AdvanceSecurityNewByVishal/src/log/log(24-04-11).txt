@@ -1,0 +1,4 @@
+(24-04-11 14:09:08) (127.0.0.1) <jit> disconnected from server
+(24-04-11 14:09:04) (127.0.0.1) <jit> hi
+(24-04-11 14:08:55) (127.0.0.1) <jit> connected to server
+(24-04-11 14:08:48) Server run on 0.0.0.0:3000

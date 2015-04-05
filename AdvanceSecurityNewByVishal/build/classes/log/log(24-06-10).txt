@@ -1,0 +1,7 @@
+(24-06-10 18:49:27) (127.0.0.1) <xfg> disconnected from server
+(24-06-10 18:49:24) (127.0.0.1) <x> disconnected from server
+(24-06-10 18:49:09) (127.0.0.1) <x> hi
+(24-06-10 18:48:59) (127.0.0.1) <xfg> send message <x> hi
+(24-06-10 18:48:52) (127.0.0.1) <xfg> connected to server
+(24-06-10 18:48:33) (127.0.0.1) <x> connected to server
+(24-06-10 18:48:18) Server run on 0.0.0.0:3000

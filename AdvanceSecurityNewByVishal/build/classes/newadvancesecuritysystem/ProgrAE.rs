@@ -1,0 +1,3 @@
+newadvancesecuritysystem.AudioTabr$EventHandler
+newadvancesecuritysystem.AudioTabr
+newadvancesecuritysystem.ProgrAE
